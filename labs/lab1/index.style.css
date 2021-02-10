@@ -1,0 +1,74 @@
+.main-grid {
+    display: grid;
+    grid-template-areas: "header-grid header-grid"
+                         "side-grid side-grid"
+                         "content-grid content-grid";
+    grid-template-columns: 200px 2fr;
+    grid-template-rows: 200px 1fr 100px;
+}
+
+.header-grid {
+    grid-area: header-grid;
+    background-color: #005f5f;
+    text-decoration: none;
+}
+.header-grid h a {
+    text-decoration: none;
+}
+.side-grid {
+    grid-area: side-grid;
+    background-color: saddlebrown;
+}
+
+.content-grid {
+    grid-area: content-grid;
+    background-color: aqua;
+    height: 500px;
+}
+.content-grid p {
+    text-align:justify;
+}
+.content-grid img {
+    width: 500px;
+    height: 250px;
+}
+.content-grid p {
+    padding: 12px;
+}
+
+.content-grid .bridge {
+    text-align: center;
+}
+.header-grid h2 {
+    text-align: center;
+}
+
+.side-grid  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.side-grid li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.side-grid  li:last-child {
+    border-right: none;
+}
+
+.side-grid  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.side-grid  li a:hover {
+    background-color: #111;
+}
+

@@ -18,7 +18,10 @@
 .child-main {
     grid-area: chm;
     background-color: darkolivegreen;
-    padding: 1.5em;
+    padding: 10px;
+}
+.child-main h3 {
+    text-align: left;
 }
 .child-nav ul {
     list-style-type: none;
@@ -26,6 +29,8 @@
     padding: 1px;
     width: 200px;
     background-color:darkcyan;
+    height: 600px;
+   
 }
 
 .child-nav li a {
@@ -33,6 +38,7 @@
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+
 }
 
 /* Change the link color on hover */

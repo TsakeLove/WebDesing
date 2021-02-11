@@ -18,6 +18,7 @@
 .side-grid {
     grid-area: side-grid;
     background-color: saddlebrown;
+
 }
 
 .content-grid {
@@ -49,6 +50,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
 }
 
 .side-grid li {

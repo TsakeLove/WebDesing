@@ -4,13 +4,14 @@
                          "side-grid side-grid"
                          "content-grid content-grid";
     grid-template-columns: 200px 2fr;
-    grid-template-rows: 200px 1fr 100px;
+    grid-template-rows: 100px 1fr 100px;
 }
 
 .header-grid {
     grid-area: header-grid;
     background-color: #005f5f;
     text-decoration: none;
+    height: 100px;
 }
 .header-grid h a {
     text-decoration: none;
@@ -18,13 +19,12 @@
 .side-grid {
     grid-area: side-grid;
     background-color: saddlebrown;
-
 }
 
 .content-grid {
     grid-area: content-grid;
-    background-color: aqua;
-    height: 500px;
+    background-color: #ccc;
+    height: 600px;
 }
 .content-grid p {
     text-align:justify;
@@ -38,6 +38,9 @@
 }
 
 .content-grid .bridge {
+    text-align: center;
+}
+.content-grid .about {
     text-align: center;
 }
 .header-grid h2 {
@@ -74,3 +77,6 @@
     background-color: #111;
 }
 
+.main-content p{
+    text-align: center;
+}

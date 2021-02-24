@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="forms.style.css">
     <link rel="stylesheet" href="../../../index.style.css">
     <link rel="stylesheet" href="../lab1.style.css">
     <title>Lab1</title>
@@ -20,14 +21,34 @@
         <div class="child-main">
             <h3>Форми</h3>
             <p>
-                <code>
-                    < form action="#"> <br>
-            < p> < b>Насколько по Вашему мнению плох дизайн моего сайта?< /b>< /p> <br>
-            < p>< input type="radio" name="answer" value="a1">Невероятно плохой<Br>
-                < input type="radio" name="answer" value="a2">Очень плохой<Br>
-                < input type="radio" name="answer" value="a3">Плохой< /p> <br>
-            < p>< input type="submit">< /p> <br>
-                </code>
+                <xmp>
+                    <form action="#">
+
+                        <label for="fname">Ім'я</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Прізвище</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="street">Вулиця</label>
+                        <select id="street" name="street">
+                            <option value="VolodimiraVelikogo">Володимира Великого</option>
+                            <option value="Soborna">Соборна</option>
+                            <option value="ProspektLesіUkrainki">Проспект Лесі Українки</option>
+                            <option value="Verkhovinna">Верховинна</option>
+                            <option value="8bereznya">8-го березня</option>
+                            <option value="OleksandraKhalamenyuka">Олександра Халаменюка</option>
+                        </select>
+
+                        <label for="subject">Опис звернення</label>
+                        <textarea id="subject" name="subject" placeholder="Впишіть Ваше звернення..." style="height:200px"></textarea>
+
+                        <input type="submit" value="Відправити">
+
+                    </form>
+                </xmp>
+                <p class="screen">  <img  src="../img/Снимок%20экрана%202021-02-24%20в%2009.13.39.png" alt=""> </p>
+
 
             </p>
         </div>

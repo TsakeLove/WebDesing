@@ -25,14 +25,14 @@
     display: grid;
     grid-template-areas: "header-new"
                          "body-new";
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 65px 1fr 100px;
+    grid-template-columns: 120px 200px 100px;
 }
 .header-new {
     grid-area: header-new;
     background-color: #333333;
     margin: 0 auto;
-    height: 50px;
+    height: 60px;
     width: 400px;
     background: #fc0; /* Цвет фона */
 
@@ -49,3 +49,7 @@
     border: 3px solid #fff; /* Белая рамка */
     border-radius: 10px; /* Радиус скругления */
 }
+
+
+
+

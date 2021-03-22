@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../../index.style.css">
+    <link rel="stylesheet" href="../lab1.style.css">
+    <link rel="stylesheet" href="./description.style.css">
+    <title>Lab2</title>
+    <style>
+        .image {
+            text-align: center;
+        }
+        img {
+            width: 1000px;
+            height: 500px;
+        }
+        body {
+            background: #c7b39b url("../../lab1/img/background20.jpg");
+        }
+    </style>
+</head>
+<body>
+<div class="grid-wrapper">
+    <script src="wrapper.js"></script>
+    <div class="main-content">
+
+        <div class="child-grid-container">
+            <div class="child-header">
+                <h2>Лабораторна робота #2</h2>
+            </div>
+            <script src="template-side.js"></script>
+        </div>
+        <div class="child-main">
+            <h3>Розмітка сторінки за допомогою flexbox</h3>
+            <xmp>
+                .row{
+                     width: 100%;
+                     display: flex;
+                     justify-content: space-around;
+                }
+                .section{
+                     margin: 50px;
+                     width: 80%;
+                }
+
+                .card{
+                     width: 250px;
+                     border: black solid 1px;
+                     padding: 5px;
+                     display: flex;
+                     flex-direction: column;
+                     align-items: center;
+                     justify-content: space-between;
+                }
+
+            </xmp>
+
+            <p class="image">
+                <img src="../img/example.png" alt="">
+            </p>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

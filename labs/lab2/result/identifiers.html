@@ -2,37 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="images.style.css">
     <link rel="stylesheet" href="../../../index.style.css">
     <link rel="stylesheet" href="../lab1.style.css">
-    <title>Lab1</title>
+    <link rel="stylesheet" href="./description.style.css">
+    <title>Lab2</title>
     <style>
         body {
             background: #c7b39b url(../img/background20.jpg); /* Цвет фона и путь к файлу */
+        }
+        .image {
+            text-align: center;
+        }
+        img {
+            width: 1000px;
+            height: 500px;
         }
     </style>
 </head>
 <body>
 <div class="grid-wrapper">
-    <script src="wrapper.js" ></script>
+    <script src="wrapper.js"></script>
     <div class="main-content">
 
         <div class="child-grid-container">
             <div class="child-header">
-                <h2>Лабораторна робота #1</h2>
+                <h2>Лабораторна робота #2</h2>
             </div>
             <script src="template-side.js"></script>
         </div>
         <div class="child-main">
-            <h3>Зображення</h3>
-            <div>
-                <xmp class="code">
+            <h3>Ідентифікатори</h3>
+            <xmp>
+                <p id="bridge">
                     <img src="img/429.jpg" alt="">
-                </xmp>
-                <p class="image"><img src="../img/429.jpg" alt=""></p>
+                </p>
+            </xmp>
 
-
-            </div>
+            <p class="image">
+                <img src="../img/bridge.png" alt="">
+            </p>
         </div>
     </div>
 </div>

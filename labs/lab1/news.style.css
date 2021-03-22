@@ -34,7 +34,7 @@
     margin: 0 auto;
     height: 60px;
     width: 400px;
-    background: #fc0; /* Цвет фона */
+    background: #f3f2f1; /* Цвет фона */
 
     border: 3px solid #fff; /* Белая рамка */
     border-radius: 10px; /* Радиус скругления */
@@ -45,7 +45,7 @@
     background-color: gray;
     margin: 0 auto;
     width: 400px;
-    background: #fc0; /* Цвет фона */
+    background: #f3f2f1; /* Цвет фона */
     border: 3px solid #fff; /* Белая рамка */
     border-radius: 10px; /* Радиус скругления */
 }

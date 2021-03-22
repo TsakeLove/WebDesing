@@ -5,8 +5,8 @@ document.write("<div class=\"header-wrapper\">\n" +
     "    </div>\n" +
     "    <div class=\"side-wrapper\">\n" +
     "        <ul>\n" +
-    "            <li><a href=\"problem.html\">1</a></li>\n" +
-    "            <li><a href=\"../../lab2/result/problem.html\">2</a></li>\n" +
+    "            <li><a href=\"../../lab1/result/problem.html\">1</a></li>\n" +
+    "            <li><a href=\"problem.html\">2</a></li>\n" +
     "            <li><a href=\"#\">3</a></li>\n" +
     "            <li><a href=\"../../lab4/result/problem.html\">4</a></li>\n" +
     "            <li><a href=\"#\">5</a></li>\n" +
